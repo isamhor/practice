@@ -1,0 +1,77 @@
+<html>
+<head>
+    <title> First lesson HTML</title>
+    <link rel="stylesheet" href="css\style.css"  />
+</head>
+<body>
+<header style="text-align:center;">
+    <h3>Форма для отправки запроса</h3>
+</header>
+<section style="text-align:justify; width: 400px;  color:blue; " >
+
+        <a target='new_window' class='a_google' href="http://google.com" style="color:red" title="Пиши title">Google</a>
+        <p style="text-align:left;">
+            Чтобы стать крутым PHP - программистом,
+            нужно освоить язык html- резаметки и css-стилей
+            по крайней мере
+        </p>
+   </section>
+<aside style="position:left">
+        <form target='new_window' action="lesson2.php" method="get" >
+            <input type="hidden" name='number_Chi' value="666" />
+            <figure>
+                <figcaption> Поля для обязательного ввода</figcaption>
+            <label for="fio">ФИО</label> <input type='search' id="fio" name="fio" placeholder="Введите ФИО"/>
+            <label for="email">E-mail</label> <input type='email' id='email' name="email" required/>
+            </figure>
+            <label for="password">Пароль</label> <input  type="password" id='password' name="password" />
+            </br>
+            <div>
+            <label for="photo">Фото</label>   <input name='photo' type="file" id="photo"/>
+            <label for="woman">Женщина</label> <input type="radio" id='woman' name="sex" value="woman"/>
+            <label for="man">Мужчина</label> <input type="radio" id='man' name="sex" checked value="man"/>
+                </div>
+            <label>Принять договор</label> <input type="checkbox" id="doc" name="doc" value="true" required />
+            <select name='country[]' >
+                <optgroup label="Азия">
+                    <option> China</option>
+                    <option>Japan</option>
+                </optgroup>
+                <optgroup label="Европа">
+                    <option selected> Украина</option>
+                    <option>Польша</option>
+                </optgroup>
+
+            </select>
+            <input type="submit"/>
+        </form>
+    <iframe id="new_window" name="new_window" >
+        This is frame for result query
+    </iframe>
+</aside>
+<a name="place" />
+        <p>
+
+            Но они не всегда должны так выглядеть. Мы легко можем применить CSS к элементу (тегу) img, чтобы улучшить его внешний вид — сделать его куда более привлекательнее, чем как он выглядит по умолчанию.
+
+            Если вам наскучили дефолтные уведомления о «битых» картинках, милости прошу под кат.
+
+            Два интересных факта об элементе img
+
+            Прежде всего, перед тем, как начать стилизовать наши «битые» картинки, мы должны усвоить 2 важных момента, чтобы понять, как ведет себя элемент img:
+
+            1. Мы можем применить стили, затрагивающие типографику текста элемента img. Такие стили будут применены к альтернативному тексту, если картинка окажется «битой», и не будут применены к нормальной, работающей картинке.
+
+            2. Элемент img является "заменяемым элементом". Это такой элемент, чье появление на странице и его пропорции определяются внешним источником (ресурсом). И так как элемент контролируется внешним источником, то псевдо-элементы :before и :after не должны работать. Однако, когда картинка является «битой» и не загружается, только в таком случае эти псевдо-элементы будут отображены.
+
+            Исходя из вышеописанного можно сделать вывод, что мы можем применять стили к «битой» картинке, и они будут работать, когда изображение не загрузится, но не будут работать, когда наша картинка нормально прогрузится на странице.
+
+            Перейдем от слов к делу
+
+            Используя полученные нами знания, давайте разберем несколько примеров и увидим наглядно, как мы можем стилизовать «битые»" картинки, используя следующую «битую» ссылку:
+        </p>
+</section>
+<audio src="" autoplay></audio>
+<footer>авторство страницы - коллектив группы по изучению PHP-программирования</footer>
+</body>
+</html>

@@ -1,0 +1,74 @@
+html {
+    background-color: white;
+    background-image: url(../images/sparta-1.jpg);
+
+}
+
+body {
+    background-color: #ede6e6;
+    margin: 0 auto;
+    width: 960px;
+    font-family: arial, Helvetica, sans-serif;
+
+
+}
+
+li {
+    display: inline;
+}
+a {
+    text-decoration: none;
+    color: #373535;
+}
+/* HEADER SECTION */
+header {
+    height: 165px;
+    padding-top: 20px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+
+.left {
+    width: 330px;
+    float: left;
+}
+.left ul {
+    padding-left: 30px;
+    padding-top: 90px;
+}
+.right {
+    width: 320px;
+    float: right;
+}
+.right ul {
+    float: right;
+    padding-right: 30px;
+    padding-top: 90px;
+}
+#logo {
+    text-align: center;
+
+}
+#logo p {
+    margin: 0px;
+    font-size: 45px;
+}
+
+.main {
+    height: 500px;
+    background-color: #AA8956;
+    opacity: 0.5;
+}
+.main ul {
+    margin-top: 0px;
+}
